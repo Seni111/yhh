@@ -1,0 +1,1 @@
+{ print $1, "has salary", $4}

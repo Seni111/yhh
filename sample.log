@@ -1,0 +1,20 @@
+2026-04-11 09:00:13 INFO  [main] Starting application
+2026-04-11 09:00:14 DEBUG [init] Loading configuration
+2026-04-11 09:00:15 INFO  [db] Database connection established
+2026-04-11 09:00:16 WARN  [cache] Cache miss for key user:123
+2026-04-11 09:00:17 DEBUG [auth] Validating credentials
+2026-04-11 09:00:18 ERROR [auth] Authentication failed for user admin
+2026-04-11 09:00:19 INFO  [http] Incoming request GET /api/status
+2026-04-11 09:00:20 WARN  [http] Slow response time: 612ms
+2026-04-11 09:00:21 DEBUG [metrics] Incrementing request counter
+2026-04-11 09:00:22 INFO  [scheduler] Scheduled job cleanup started
+2026-04-11 09:00:23 DEBUG [scheduler] Job cleanup iteration 1
+2026-04-11 09:00:24 ERROR [scheduler] Failed to delete expired session
+2026-04-11 09:00:25 INFO  [email] Sending notification to user john@example.com
+2026-04-11 09:00:26 DEBUG [email] SMTP handshake complete
+2026-04-11 09:00:27 WARN  [email] Email delivery delayed by 10 seconds
+2026-04-11 09:00:28 INFO  [cache] Cache warmed for popular items
+2026-04-11 09:00:29 ERROR [db] Query timeout on SELECT * FROM orders
+2026-04-11 09:00:30 DEBUG [http] Request headers parsed
+2026-04-11 09:00:31 INFO  [main] Application startup complete
+2026-04-11 09:00:32 WARN  [security] Unusual login location detected

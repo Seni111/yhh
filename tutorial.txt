@@ -1,0 +1,18 @@
+2024-01-15 10:30:45 ERROR Database connection failed
+2024-01-15 10:31:12 WARNING Memory usage at 85%
+2024-01-15 10:32:05 INFO User login successful: john.doe@example.com
+2024-01-15 10:33:22 ERROR File not found: /data/config.xml
+2024-01-15 10:34:18 INFO API request processed in 234ms
+2024-02-20 14:45:30 ERROR Authentication failed for admin@company.org
+2024-02-20 14:46:15 WARNING Disk space critically low
+2024-02-20 14:47:02 INFO Backup completed successfully
+2024-03-10 09:15:44 ERROR Timeout while connecting to database
+2024-03-10 09:16:30 INFO Cache cleared, size: 512MB
+user1:100:John Doe:john@example.com:active
+user2:101:Jane Smith:jane@example.com:inactive
+user3:102:Bob Johnson:bob@example.com:active
+product_id,name,price,category,stock
+P001,Laptop,999.99,Electronics,15
+P002,Mouse,25.50,Electronics,120
+P003,Desk Chair,299.00,Furniture,8
+P004,Monitor,399.99,Electronics,42
