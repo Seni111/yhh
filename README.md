@@ -97,3 +97,4 @@ awk -F',' '$4=="Electronics" {print $2, $3}' tutorial.txt
 ## Notes
 
 This is a learning project created to practice shell scripting, AWK, and data processing techniques. All files are designed to be beginner-friendly with realistic examples for everyday system administration tasks.
+All glory to GOD.
