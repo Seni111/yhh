@@ -4,3 +4,5 @@
 In the editor, you edit the pick in front of some the change to s, meaning squash, but you squash to the two commits you want to keep, then rename them
 4.Step 1... get the origin of the conflict from the error message, Step 2.... Open the file with the conflict, then resolve it, Step 3.... add the file again, cause it would appear untracked, Step 4.... Continue the rebase with git rebase --continue
 5. git log --oneline --graph --all                        * 0c3db10 (HEAD -> feature/rebase-practice) Final rebase                            * 2b5674f (main) Updated README                                                     * 8cbac16 added README.md file                                                      * 62d5c64 (origin/main)  I learnt how to use awk,grep and sed    
+6. I am getting there
+

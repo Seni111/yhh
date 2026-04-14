@@ -1,0 +1,9 @@
+1.Git merge is used to merge whole branches into main or another branch, while git cherry-pick is used to merge a particular commit to main branch.... Imagine a scenario where I'm working on the main branch and I need something maybe a login page which is being developed in another branch, with git cherry-pick I can just pick the hash of the login commit and use it on main
+2.I'd stash my unfinished work with the command git stash
+. Then after I'm done with the bug fix,  I get it back with git stash pop
+3.Git stash pop, let's you use the latest stash and deletes it from the stash while Git stash apply keeps the stash and let's you use it
+4. Git-hub flow- This git workflow has one persistent branch. Best for CI/CD
+. Git flow: An old practice that has long leaved branches, it is very slow and can be used in the production of web-apps with versions
+.Trunk-based: Commits are regularly made on the main branch, it's for more experienced developers, widely considered as the best practice  
+5.* f20e8a1 (main) Fixed urgent bug                                                   * 5cfd83b Fixed Bug                                                                 | * a49924e (HEAD -> feature/new.script) Added notes                                | * c126aed Fixed Bug                                                               | * 68f2329 Added script                                                            |/                                                                                  * 9671f20 Answers for day 6                                                         | * 0c3db10 (feature/rebase-practice) Final rebase                                  |/                                                                                  * 2b5674f (origin/main) Updated README                                              * 8cbac16 added README.md file                                                      * 62d5c64  I learnt how to use awk,grep and sed  
+
