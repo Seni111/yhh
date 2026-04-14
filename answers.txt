@@ -1,0 +1,6 @@
+1.I feel git merge basically connects your feature to main while keeping commit history while rebase basically copies the commits on the feature and lay it on the main, while deleting the feature branch, hereby  keeping the work history clean
+2.The golden rule of rebasing is to never rebase in a shared project, cause this makes it very hard to track  changes, Breaking it basically makes it very hard to track the origins of errors in the commit history of the remote main
+3.git rebase -i head~6
+In the editor, you edit the pick in front of some the change to s, meaning squash, but you squash to the two commits you want to keep, then rename them
+4.Step 1... get the origin of the conflict from the error message, Step 2.... Open the file with the conflict, then resolve it, Step 3.... add the file again, cause it would appear untracked, Step 4.... Continue the rebase with git rebase --continue
+5. git log --oneline --graph --all                        * 0c3db10 (HEAD -> feature/rebase-practice) Final rebase                            * 2b5674f (main) Updated README                                                     * 8cbac16 added README.md file                                                      * 62d5c64 (origin/main)  I learnt how to use awk,grep and sed    
