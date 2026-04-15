@@ -1,0 +1,39 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+env/
+bin/
+lib/
+develop-eggs/
+dist/
+build/
+
+# Docker-related (often used locally but not needed in Git)
+.dockerignore
+# NOTE: Do NOT ignore Dockerfile or docker-compose.yml as they are part of the source
+
+# Environment variables & sensitive info
+.env
+.venv
+*.env
+auth.json
+
+# IDE / Editor settings
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS specific files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+pip-log.txt
+

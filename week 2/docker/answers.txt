@@ -1,0 +1,15 @@
+CONTAINER ID   IMAGE          COMMAND            CREATED         STATUS         PORTS                                         NAMES
+7104a5e14359   flask-app:v1   "python3 app.py"   5 minutes ago   Up 5 minutes   0.0.0.0:5000->5000/tcp, [::]:5000->5000/tcp   wonderful_lederberg
+REPOSITORY       TAG             IMAGE ID       CREATED         SIZE
+flask-app        v1              3f870c2ac4d5   6 minutes ago   141MB
+hello-world      latest          e2ac70e7319a   3 weeks ago     10.1kB
+static-website   latest          f798b264e805   5 weeks ago     129MB
+<none>           <none>          ad77a368c747   5 weeks ago     61.8MB
+web_sitation     1.0             6bf04ce126df   2 months ago    61.9MB
+flask-api        latest          5a2edd35c39e   2 months ago    132MB
+my-own           latest          c527f0cbfeb8   3 months ago    124MB
+<none>           <none>          fc7a5048f4e2   3 months ago    124MB
+nginx            stable-alpine   826d3f25207a   3 months ago    61.8MB
+python           3.11-slim       fa659464a114   3 months ago    124MB
+python           3.12-slim       c78a70d7588f   3 months ago    119MB
+nginx            latest          4af177a024eb   3 months ago    161MB
